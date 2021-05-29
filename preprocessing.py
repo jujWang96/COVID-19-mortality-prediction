@@ -10,7 +10,9 @@ import datetime as dt
 def onehot_encode(df):
         df_new = pd.DataFrame()
         for col in df.columns.tolist():
-            df_new = pd.concat([df_new, pd.get_dummies(df[col],dtype=int)],axis=1)
+                s = pd.get_dummies(df[col],dtype=int)
+                for s_col in s.columns.tolist():
+                        df_new[col+":"+s_col] = s[s_col]
         return df_new
 
 #encode the time to month+year 
