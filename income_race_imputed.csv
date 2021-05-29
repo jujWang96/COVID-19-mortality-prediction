@@ -1,0 +1,473 @@
+res_county,race_ethnicity_combined,estimated household income
+ALAMEDA,Unknown,101744.0
+ALPINE,Unknown,55384.0
+AMADOR,Unknown,58515.0
+BUTTE,Unknown,50945.0
+CALAVERAS,Unknown,62984.0
+COLUSA,Unknown,57249.0
+CONTRA COSTA,Unknown,101463.0
+DEL NORTE,Unknown,48518.0
+EL DORADO,Unknown,81869.0
+FRESNO,Unknown,52318.0
+GLENN,Unknown,47365.0
+HUMBOLDT,Unknown,49471.0
+IMPERIAL,Unknown,46633.0
+INYO,Unknown,53793.0
+KERN,Unknown,51586.0
+KINGS,Unknown,58255.0
+LAKE,Unknown,45086.0
+LASSEN,Unknown,57705.0
+LOS ANGELES,Unknown,67986.0
+MADERA,Unknown,53632.0
+MARIN,Unknown,122933.0
+MARIPOSA,Unknown,51402.0
+MENDOCINO,Unknown,51386.0
+MERCED,Unknown,56169.0
+MODOC,Unknown,45227.0
+MONO,Unknown,66499.0
+MONTEREY,Unknown,69665.0
+NAPA,Unknown,85624.0
+NEVADA,Unknown,66681.0
+ORANGE,Unknown,89373.0
+PLACER,Unknown,89175.0
+PLUMAS,Unknown,55079.0
+RIVERSIDE,Unknown,66793.0
+SACRAMENTO,Unknown,69475.0
+SAN BENITO,Unknown,80063.0
+SAN BERNARDINO,Unknown,63310.0
+SAN DIEGO,Unknown,78777.0
+SAN FRANCISCO,Unknown,110601.0
+SAN JOAQUIN,Unknown,63567.0
+SAN LUIS OBISPO,Unknown,70626.0
+SAN MATEO,Unknown,122930.0
+SANTA BARBARA,Unknown,75646.0
+SANTA CLARA,Unknown,125933.0
+SANTA CRUZ,Unknown,84213.0
+SHASTA,Unknown,53908.0
+SIERRA,Unknown,52308.0
+SISKIYOU,Unknown,47560.0
+SOLANO,Unknown,82808.0
+SONOMA,Unknown,81002.0
+STANISLAUS,Unknown,59616.0
+SUTTER,Unknown,57879.0
+TEHAMA,Unknown,47572.0
+TRINITY,Unknown,40680.0
+TULARE,Unknown,48763.0
+TUOLUMNE,Unknown,56500.0
+VENTURA,Unknown,84170.0
+YOLO,Unknown,67804.0
+YUBA,Unknown,47504.0
+Unknown,Unknown,67098.6551724138
+ALAMEDA,"American Indian/Alaska Native, Non-Hispanic",63022.0
+ALPINE,"American Indian/Alaska Native, Non-Hispanic",40417.0
+AMADOR,"American Indian/Alaska Native, Non-Hispanic",43597.33357825129
+BUTTE,"American Indian/Alaska Native, Non-Hispanic",41691.0
+CALAVERAS,"American Indian/Alaska Native, Non-Hispanic",58452.0
+COLUSA,"American Indian/Alaska Native, Non-Hispanic",69167.0
+CONTRA COSTA,"American Indian/Alaska Native, Non-Hispanic",73008.0
+DEL NORTE,"American Indian/Alaska Native, Non-Hispanic",30500.0
+EL DORADO,"American Indian/Alaska Native, Non-Hispanic",61250.0
+FRESNO,"American Indian/Alaska Native, Non-Hispanic",40022.0
+GLENN,"American Indian/Alaska Native, Non-Hispanic",38462.0
+HUMBOLDT,"American Indian/Alaska Native, Non-Hispanic",30957.0
+IMPERIAL,"American Indian/Alaska Native, Non-Hispanic",53125.0
+INYO,"American Indian/Alaska Native, Non-Hispanic",41622.0
+KERN,"American Indian/Alaska Native, Non-Hispanic",51071.0
+KINGS,"American Indian/Alaska Native, Non-Hispanic",43971.0
+LAKE,"American Indian/Alaska Native, Non-Hispanic",22622.0
+LASSEN,"American Indian/Alaska Native, Non-Hispanic",34886.0
+LOS ANGELES,"American Indian/Alaska Native, Non-Hispanic",54447.0
+MADERA,"American Indian/Alaska Native, Non-Hispanic",48333.0
+MARIN,"American Indian/Alaska Native, Non-Hispanic",91845.0
+MARIPOSA,"American Indian/Alaska Native, Non-Hispanic",51902.0
+MENDOCINO,"American Indian/Alaska Native, Non-Hispanic",49321.0
+MERCED,"American Indian/Alaska Native, Non-Hispanic",35625.0
+MODOC,"American Indian/Alaska Native, Non-Hispanic",28750.0
+MONO,"American Indian/Alaska Native, Non-Hispanic",56458.0
+MONTEREY,"American Indian/Alaska Native, Non-Hispanic",59375.0
+NAPA,"American Indian/Alaska Native, Non-Hispanic",67857.0
+NEVADA,"American Indian/Alaska Native, Non-Hispanic",44310.0
+ORANGE,"American Indian/Alaska Native, Non-Hispanic",68847.0
+PLACER,"American Indian/Alaska Native, Non-Hispanic",44293.0
+PLUMAS,"American Indian/Alaska Native, Non-Hispanic",61667.0
+RIVERSIDE,"American Indian/Alaska Native, Non-Hispanic",53250.0
+SACRAMENTO,"American Indian/Alaska Native, Non-Hispanic",54068.0
+SAN BENITO,"American Indian/Alaska Native, Non-Hispanic",88750.0
+SAN BERNARDINO,"American Indian/Alaska Native, Non-Hispanic",50971.0
+SAN DIEGO,"American Indian/Alaska Native, Non-Hispanic",56181.0
+SAN FRANCISCO,"American Indian/Alaska Native, Non-Hispanic",61250.0
+SAN JOAQUIN,"American Indian/Alaska Native, Non-Hispanic",53659.0
+SAN LUIS OBISPO,"American Indian/Alaska Native, Non-Hispanic",71964.0
+SAN MATEO,"American Indian/Alaska Native, Non-Hispanic",76016.0
+SANTA BARBARA,"American Indian/Alaska Native, Non-Hispanic",48340.0
+SANTA CLARA,"American Indian/Alaska Native, Non-Hispanic",76886.0
+SANTA CRUZ,"American Indian/Alaska Native, Non-Hispanic",70208.0
+SHASTA,"American Indian/Alaska Native, Non-Hispanic",43790.0
+SIERRA,"American Indian/Alaska Native, Non-Hispanic",40172.942622950824
+SISKIYOU,"American Indian/Alaska Native, Non-Hispanic",30528.0
+SOLANO,"American Indian/Alaska Native, Non-Hispanic",60305.0
+SONOMA,"American Indian/Alaska Native, Non-Hispanic",78304.0
+STANISLAUS,"American Indian/Alaska Native, Non-Hispanic",42015.0
+SUTTER,"American Indian/Alaska Native, Non-Hispanic",47625.0
+TEHAMA,"American Indian/Alaska Native, Non-Hispanic",31413.0
+TRINITY,"American Indian/Alaska Native, Non-Hispanic",53036.0
+TULARE,"American Indian/Alaska Native, Non-Hispanic",40278.0
+TUOLUMNE,"American Indian/Alaska Native, Non-Hispanic",41488.0
+VENTURA,"American Indian/Alaska Native, Non-Hispanic",79386.0
+YOLO,"American Indian/Alaska Native, Non-Hispanic",48056.0
+YUBA,"American Indian/Alaska Native, Non-Hispanic",30724.0
+Unknown,"American Indian/Alaska Native, Non-Hispanic",52233.38407243452
+ALAMEDA,"Asian, Non-Hispanic",116200.0
+ALPINE,"Asian, Non-Hispanic",32357.853211009176
+AMADOR,"Asian, Non-Hispanic",72188.0
+BUTTE,"Asian, Non-Hispanic",41981.0
+CALAVERAS,"Asian, Non-Hispanic",37963.0
+COLUSA,"Asian, Non-Hispanic",90791.74771784231
+CONTRA COSTA,"Asian, Non-Hispanic",112588.0
+DEL NORTE,"Asian, Non-Hispanic",80735.0
+EL DORADO,"Asian, Non-Hispanic",122314.0
+FRESNO,"Asian, Non-Hispanic",61069.0
+GLENN,"Asian, Non-Hispanic",48624.01033295063
+HUMBOLDT,"Asian, Non-Hispanic",47266.0
+IMPERIAL,"Asian, Non-Hispanic",86667.0
+INYO,"Asian, Non-Hispanic",68574.58333333333
+KERN,"Asian, Non-Hispanic",71620.0
+KINGS,"Asian, Non-Hispanic",73810.0
+LAKE,"Asian, Non-Hispanic",68476.17184612801
+LASSEN,"Asian, Non-Hispanic",109792.0
+LOS ANGELES,"Asian, Non-Hispanic",75326.0
+MADERA,"Asian, Non-Hispanic",58662.0
+MARIN,"Asian, Non-Hispanic",103000.0
+MARIPOSA,"Asian, Non-Hispanic",25990.0
+MENDOCINO,"Asian, Non-Hispanic",62723.0
+MERCED,"Asian, Non-Hispanic",56013.0
+MODOC,"Asian, Non-Hispanic",70134.1594154208
+MONO,"Asian, Non-Hispanic",83504.95054592165
+MONTEREY,"Asian, Non-Hispanic",79132.0
+NAPA,"Asian, Non-Hispanic",111888.0
+NEVADA,"Asian, Non-Hispanic",84107.0
+ORANGE,"Asian, Non-Hispanic",88707.0
+PLACER,"Asian, Non-Hispanic",116409.0
+PLUMAS,"Asian, Non-Hispanic",23167.0
+RIVERSIDE,"Asian, Non-Hispanic",81229.0
+SACRAMENTO,"Asian, Non-Hispanic",70898.0
+SAN BENITO,"Asian, Non-Hispanic",114762.0
+SAN BERNARDINO,"Asian, Non-Hispanic",78328.0
+SAN DIEGO,"Asian, Non-Hispanic",93426.0
+SAN FRANCISCO,"Asian, Non-Hispanic",88016.0
+SAN JOAQUIN,"Asian, Non-Hispanic",73806.0
+SAN LUIS OBISPO,"Asian, Non-Hispanic",67138.0
+SAN MATEO,"Asian, Non-Hispanic",132109.0
+SANTA BARBARA,"Asian, Non-Hispanic",76129.0
+SANTA CLARA,"Asian, Non-Hispanic",138903.0
+SANTA CRUZ,"Asian, Non-Hispanic",63333.0
+SHASTA,"Asian, Non-Hispanic",75655.0
+SIERRA,"Asian, Non-Hispanic",61213.139344262294
+SISKIYOU,"Asian, Non-Hispanic",40000.0
+SOLANO,"Asian, Non-Hispanic",94257.0
+SONOMA,"Asian, Non-Hispanic",76200.0
+STANISLAUS,"Asian, Non-Hispanic",68149.0
+SUTTER,"Asian, Non-Hispanic",57787.0
+TEHAMA,"Asian, Non-Hispanic",40510.250521920665
+TRINITY,"Asian, Non-Hispanic",16667.0
+TULARE,"Asian, Non-Hispanic",56552.0
+TUOLUMNE,"Asian, Non-Hispanic",59583.0
+VENTURA,"Asian, Non-Hispanic",108863.0
+YOLO,"Asian, Non-Hispanic",58306.0
+YUBA,"Asian, Non-Hispanic",41400.0
+Unknown,"Asian, Non-Hispanic",74396.5494184274
+ALAMEDA,"Black, Non-Hispanic",49367.0
+ALPINE,"Black, Non-Hispanic",38820.164086687306
+AMADOR,"Black, Non-Hispanic",44098.675238795004
+BUTTE,"Black, Non-Hispanic",30094.0
+CALAVERAS,"Black, Non-Hispanic",45374.93232268544
+COLUSA,"Black, Non-Hispanic",57012.796875
+CONTRA COSTA,"Black, Non-Hispanic",61768.0
+DEL NORTE,"Black, Non-Hispanic",56226.0
+EL DORADO,"Black, Non-Hispanic",91250.0
+FRESNO,"Black, Non-Hispanic",32571.0
+GLENN,"Black, Non-Hispanic",82957.18140068886
+HUMBOLDT,"Black, Non-Hispanic",30257.0
+IMPERIAL,"Black, Non-Hispanic",24435.0
+INYO,"Black, Non-Hispanic",72019.0
+KERN,"Black, Non-Hispanic",36439.0
+KINGS,"Black, Non-Hispanic",43917.0
+LAKE,"Black, Non-Hispanic",27763.0
+LASSEN,"Black, Non-Hispanic",64375.0
+LOS ANGELES,"Black, Non-Hispanic",45886.0
+MADERA,"Black, Non-Hispanic",43854.0
+MARIN,"Black, Non-Hispanic",66316.0
+MARIPOSA,"Black, Non-Hispanic",34617.658346333854
+MENDOCINO,"Black, Non-Hispanic",34459.28081123245
+MERCED,"Black, Non-Hispanic",39576.0
+MODOC,"Black, Non-Hispanic",27459.67226890756
+MONO,"Black, Non-Hispanic",59261.10918432884
+MONTEREY,"Black, Non-Hispanic",64281.0
+NAPA,"Black, Non-Hispanic",73939.0
+NEVADA,"Black, Non-Hispanic",60370.0
+ORANGE,"Black, Non-Hispanic",75589.0
+PLACER,"Black, Non-Hispanic",72303.0
+PLUMAS,"Black, Non-Hispanic",38526.49535603715
+RIVERSIDE,"Black, Non-Hispanic",60421.0
+SACRAMENTO,"Black, Non-Hispanic",45728.0
+SAN BENITO,"Black, Non-Hispanic",113438.0
+SAN BERNARDINO,"Black, Non-Hispanic",45424.0
+SAN DIEGO,"Black, Non-Hispanic",54525.0
+SAN FRANCISCO,"Black, Non-Hispanic",30442.0
+SAN JOAQUIN,"Black, Non-Hispanic",41397.0
+SAN LUIS OBISPO,"Black, Non-Hispanic",55613.0
+SAN MATEO,"Black, Non-Hispanic",62292.0
+SANTA BARBARA,"Black, Non-Hispanic",54340.0
+SANTA CLARA,"Black, Non-Hispanic",74284.0
+SANTA CRUZ,"Black, Non-Hispanic",50833.0
+SHASTA,"Black, Non-Hispanic",37399.0
+SIERRA,"Black, Non-Hispanic",32623.841530054644
+SISKIYOU,"Black, Non-Hispanic",91979.99605522683
+SOLANO,"Black, Non-Hispanic",58262.0
+SONOMA,"Black, Non-Hispanic",62656.0
+STANISLAUS,"Black, Non-Hispanic",44868.0
+SUTTER,"Black, Non-Hispanic",59766.0
+TEHAMA,"Black, Non-Hispanic",91532.13806706114
+TRINITY,"Black, Non-Hispanic",27763.0
+TULARE,"Black, Non-Hispanic",38171.0
+TUOLUMNE,"Black, Non-Hispanic",44920.055338541664
+VENTURA,"Black, Non-Hispanic",79785.0
+YOLO,"Black, Non-Hispanic",42695.0
+YUBA,"Black, Non-Hispanic",94070.0
+Unknown,"Black, Non-Hispanic",53800.18960140656
+ALAMEDA,Hispanic/Latino,72438.0
+ALPINE,Hispanic/Latino,31250.0
+AMADOR,Hispanic/Latino,80958.0
+BUTTE,Hispanic/Latino,41843.0
+CALAVERAS,Hispanic/Latino,64038.0
+COLUSA,Hispanic/Latino,56375.0
+CONTRA COSTA,Hispanic/Latino,69126.0
+DEL NORTE,Hispanic/Latino,37348.0
+EL DORADO,Hispanic/Latino,70684.0
+FRESNO,Hispanic/Latino,41192.0
+GLENN,Hispanic/Latino,43845.0
+HUMBOLDT,Hispanic/Latino,41250.0
+IMPERIAL,Hispanic/Latino,43321.0
+INYO,Hispanic/Latino,45660.0
+KERN,Hispanic/Latino,43662.0
+KINGS,Hispanic/Latino,43845.0
+LAKE,Hispanic/Latino,40560.0
+LASSEN,Hispanic/Latino,51058.0
+LOS ANGELES,Hispanic/Latino,52712.0
+MADERA,Hispanic/Latino,44155.0
+MARIN,Hispanic/Latino,64367.0
+MARIPOSA,Hispanic/Latino,42014.0
+MENDOCINO,Hispanic/Latino,40964.0
+MERCED,Hispanic/Latino,44436.0
+MODOC,Hispanic/Latino,30667.0
+MONO,Hispanic/Latino,52993.0
+MONTEREY,Hispanic/Latino,55720.0
+NAPA,Hispanic/Latino,63155.0
+NEVADA,Hispanic/Latino,49581.0
+ORANGE,Hispanic/Latino,65103.0
+PLACER,Hispanic/Latino,70247.0
+PLUMAS,Hispanic/Latino,51774.0
+RIVERSIDE,Hispanic/Latino,54606.0
+SACRAMENTO,Hispanic/Latino,54377.0
+SAN BENITO,Hispanic/Latino,68707.0
+SAN BERNARDINO,Hispanic/Latino,56813.0
+SAN DIEGO,Hispanic/Latino,56215.0
+SAN FRANCISCO,Hispanic/Latino,72578.0
+SAN JOAQUIN,Hispanic/Latino,52196.0
+SAN LUIS OBISPO,Hispanic/Latino,57053.0
+SAN MATEO,Hispanic/Latino,76655.0
+SANTA BARBARA,Hispanic/Latino,56780.0
+SANTA CLARA,Hispanic/Latino,75313.0
+SANTA CRUZ,Hispanic/Latino,54327.0
+SHASTA,Hispanic/Latino,41423.0
+SIERRA,Hispanic/Latino,21667.0
+SISKIYOU,Hispanic/Latino,34922.0
+SOLANO,Hispanic/Latino,68486.0
+SONOMA,Hispanic/Latino,62419.0
+STANISLAUS,Hispanic/Latino,50805.0
+SUTTER,Hispanic/Latino,43650.0
+TEHAMA,Hispanic/Latino,40980.0
+TRINITY,Hispanic/Latino,75962.0
+TULARE,Hispanic/Latino,39443.0
+TUOLUMNE,Hispanic/Latino,49160.0
+VENTURA,Hispanic/Latino,66135.0
+YOLO,Hispanic/Latino,53821.0
+YUBA,Hispanic/Latino,45128.0
+Unknown,Hispanic/Latino,53033.8275862069
+ALAMEDA,"White, Non-Hispanic",108277.0
+ALPINE,"White, Non-Hispanic",69375.0
+AMADOR,"White, Non-Hispanic",59637.0
+BUTTE,"White, Non-Hispanic",51185.0
+CALAVERAS,"White, Non-Hispanic",59309.0
+COLUSA,"White, Non-Hispanic",56609.0
+CONTRA COSTA,"White, Non-Hispanic",105826.0
+DEL NORTE,"White, Non-Hispanic",47969.0
+EL DORADO,"White, Non-Hispanic",80514.0
+FRESNO,"White, Non-Hispanic",66362.0
+GLENN,"White, Non-Hispanic",49539.0
+HUMBOLDT,"White, Non-Hispanic",47889.0
+IMPERIAL,"White, Non-Hispanic",62716.0
+INYO,"White, Non-Hispanic",54684.0
+KERN,"White, Non-Hispanic",63483.0
+KINGS,"White, Non-Hispanic",68415.0
+LAKE,"White, Non-Hispanic",45279.0
+LASSEN,"White, Non-Hispanic",56883.0
+LOS ANGELES,"White, Non-Hispanic",83847.0
+MADERA,"White, Non-Hispanic",63660.0
+MARIN,"White, Non-Hispanic",121310.0
+MARIPOSA,"White, Non-Hispanic",53432.0
+MENDOCINO,"White, Non-Hispanic",53470.0
+MERCED,"White, Non-Hispanic",61238.0
+MODOC,"White, Non-Hispanic",47323.0
+MONO,"White, Non-Hispanic",68700.0
+MONTEREY,"White, Non-Hispanic",82328.0
+NAPA,"White, Non-Hispanic",93084.0
+NEVADA,"White, Non-Hispanic",63954.0
+ORANGE,"White, Non-Hispanic",97369.0
+PLACER,"White, Non-Hispanic",84997.0
+PLUMAS,"White, Non-Hispanic",53919.0
+RIVERSIDE,"White, Non-Hispanic",71482.0
+SACRAMENTO,"White, Non-Hispanic",71076.0
+SAN BENITO,"White, Non-Hispanic",97123.0
+SAN BERNARDINO,"White, Non-Hispanic",64707.0
+SAN DIEGO,"White, Non-Hispanic",84785.0
+SAN FRANCISCO,"White, Non-Hispanic",132154.0
+SAN JOAQUIN,"White, Non-Hispanic",71215.0
+SAN LUIS OBISPO,"White, Non-Hispanic",74368.0
+SAN MATEO,"White, Non-Hispanic",128187.0
+SANTA BARBARA,"White, Non-Hispanic",84085.0
+SANTA CLARA,"White, Non-Hispanic",126093.0
+SANTA CRUZ,"White, Non-Hispanic",88710.0
+SHASTA,"White, Non-Hispanic",51834.0
+SIERRA,"White, Non-Hispanic",51192.0
+SISKIYOU,"White, Non-Hispanic",46898.0
+SOLANO,"White, Non-Hispanic",83481.0
+SONOMA,"White, Non-Hispanic",81239.0
+STANISLAUS,"White, Non-Hispanic",63611.0
+SUTTER,"White, Non-Hispanic",64506.0
+TEHAMA,"White, Non-Hispanic",44511.0
+TRINITY,"White, Non-Hispanic",38260.0
+TULARE,"White, Non-Hispanic",61915.0
+TUOLUMNE,"White, Non-Hispanic",57438.0
+VENTURA,"White, Non-Hispanic",93197.0
+YOLO,"White, Non-Hispanic",75939.0
+YUBA,"White, Non-Hispanic",55989.0
+Unknown,"White, Non-Hispanic",71492.70689655172
+ALAMEDA,"Multiple/Other, Non-Hispanic ",101744.0
+ALPINE,"Multiple/Other, Non-Hispanic ",55384.0
+AMADOR,"Multiple/Other, Non-Hispanic ",58515.0
+BUTTE,"Multiple/Other, Non-Hispanic ",50945.0
+CALAVERAS,"Multiple/Other, Non-Hispanic ",62984.0
+COLUSA,"Multiple/Other, Non-Hispanic ",57249.0
+CONTRA COSTA,"Multiple/Other, Non-Hispanic ",101463.0
+DEL NORTE,"Multiple/Other, Non-Hispanic ",48518.0
+EL DORADO,"Multiple/Other, Non-Hispanic ",81869.0
+FRESNO,"Multiple/Other, Non-Hispanic ",52318.0
+GLENN,"Multiple/Other, Non-Hispanic ",47365.0
+HUMBOLDT,"Multiple/Other, Non-Hispanic ",49471.0
+IMPERIAL,"Multiple/Other, Non-Hispanic ",46633.0
+INYO,"Multiple/Other, Non-Hispanic ",53793.0
+KERN,"Multiple/Other, Non-Hispanic ",51586.0
+KINGS,"Multiple/Other, Non-Hispanic ",58255.0
+LAKE,"Multiple/Other, Non-Hispanic ",45086.0
+LASSEN,"Multiple/Other, Non-Hispanic ",57705.0
+LOS ANGELES,"Multiple/Other, Non-Hispanic ",67986.0
+MADERA,"Multiple/Other, Non-Hispanic ",53632.0
+MARIN,"Multiple/Other, Non-Hispanic ",122933.0
+MARIPOSA,"Multiple/Other, Non-Hispanic ",51402.0
+MENDOCINO,"Multiple/Other, Non-Hispanic ",51386.0
+MERCED,"Multiple/Other, Non-Hispanic ",56169.0
+MODOC,"Multiple/Other, Non-Hispanic ",45227.0
+MONO,"Multiple/Other, Non-Hispanic ",66499.0
+MONTEREY,"Multiple/Other, Non-Hispanic ",69665.0
+NAPA,"Multiple/Other, Non-Hispanic ",85624.0
+NEVADA,"Multiple/Other, Non-Hispanic ",66681.0
+ORANGE,"Multiple/Other, Non-Hispanic ",89373.0
+PLACER,"Multiple/Other, Non-Hispanic ",89175.0
+PLUMAS,"Multiple/Other, Non-Hispanic ",55079.0
+RIVERSIDE,"Multiple/Other, Non-Hispanic ",66793.0
+SACRAMENTO,"Multiple/Other, Non-Hispanic ",69475.0
+SAN BENITO,"Multiple/Other, Non-Hispanic ",80063.0
+SAN BERNARDINO,"Multiple/Other, Non-Hispanic ",63310.0
+SAN DIEGO,"Multiple/Other, Non-Hispanic ",78777.0
+SAN FRANCISCO,"Multiple/Other, Non-Hispanic ",110601.0
+SAN JOAQUIN,"Multiple/Other, Non-Hispanic ",63567.0
+SAN LUIS OBISPO,"Multiple/Other, Non-Hispanic ",70626.0
+SAN MATEO,"Multiple/Other, Non-Hispanic ",122930.0
+SANTA BARBARA,"Multiple/Other, Non-Hispanic ",75646.0
+SANTA CLARA,"Multiple/Other, Non-Hispanic ",125933.0
+SANTA CRUZ,"Multiple/Other, Non-Hispanic ",84213.0
+SHASTA,"Multiple/Other, Non-Hispanic ",53908.0
+SIERRA,"Multiple/Other, Non-Hispanic ",52308.0
+SISKIYOU,"Multiple/Other, Non-Hispanic ",47560.0
+SOLANO,"Multiple/Other, Non-Hispanic ",82808.0
+SONOMA,"Multiple/Other, Non-Hispanic ",81002.0
+STANISLAUS,"Multiple/Other, Non-Hispanic ",59616.0
+SUTTER,"Multiple/Other, Non-Hispanic ",57879.0
+TEHAMA,"Multiple/Other, Non-Hispanic ",47572.0
+TRINITY,"Multiple/Other, Non-Hispanic ",40680.0
+TULARE,"Multiple/Other, Non-Hispanic ",48763.0
+TUOLUMNE,"Multiple/Other, Non-Hispanic ",56500.0
+VENTURA,"Multiple/Other, Non-Hispanic ",84170.0
+YOLO,"Multiple/Other, Non-Hispanic ",67804.0
+YUBA,"Multiple/Other, Non-Hispanic ",47504.0
+Unknown,"Multiple/Other, Non-Hispanic ",67098.6551724138
+ALAMEDA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",101744.0
+ALPINE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",55384.0
+AMADOR,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",58515.0
+BUTTE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",50945.0
+CALAVERAS,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",62984.0
+COLUSA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",57249.0
+CONTRA COSTA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",101463.0
+DEL NORTE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",48518.0
+EL DORADO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",81869.0
+FRESNO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",52318.0
+GLENN,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",47365.0
+HUMBOLDT,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",49471.0
+IMPERIAL,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",46633.0
+INYO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",53793.0
+KERN,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",51586.0
+KINGS,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",58255.0
+LAKE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",45086.0
+LASSEN,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",57705.0
+LOS ANGELES,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",67986.0
+MADERA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",53632.0
+MARIN,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",122933.0
+MARIPOSA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",51402.0
+MENDOCINO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",51386.0
+MERCED,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",56169.0
+MODOC,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",45227.0
+MONO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",66499.0
+MONTEREY,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",69665.0
+NAPA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",85624.0
+NEVADA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",66681.0
+ORANGE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",89373.0
+PLACER,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",89175.0
+PLUMAS,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",55079.0
+RIVERSIDE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",66793.0
+SACRAMENTO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",69475.0
+SAN BENITO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",80063.0
+SAN BERNARDINO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",63310.0
+SAN DIEGO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",78777.0
+SAN FRANCISCO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",110601.0
+SAN JOAQUIN,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",63567.0
+SAN LUIS OBISPO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",70626.0
+SAN MATEO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",122930.0
+SANTA BARBARA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",75646.0
+SANTA CLARA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",125933.0
+SANTA CRUZ,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",84213.0
+SHASTA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",53908.0
+SIERRA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",52308.0
+SISKIYOU,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",47560.0
+SOLANO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",82808.0
+SONOMA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",81002.0
+STANISLAUS,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",59616.0
+SUTTER,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",57879.0
+TEHAMA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",47572.0
+TRINITY,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",40680.0
+TULARE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",48763.0
+TUOLUMNE,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",56500.0
+VENTURA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",84170.0
+YOLO,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",67804.0
+YUBA,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",47504.0
+Unknown,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",67098.6551724138
