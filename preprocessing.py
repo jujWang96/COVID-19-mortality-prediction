@@ -87,14 +87,30 @@ def add_count_symptoms(df,symptom_list):
 
         
 
-
+###clean data
 file_path = 'CA_combined_csv.csv'
 df_raw = pd.read_csv(file_path,sep=',',error_bad_lines=False, engine="python")
 df_raw = df_raw.replace({'MISSING':'Unknown','Missing':'Unknown'})
+ca_counties = ["ALAMEDA", "ALPINE", "AMADOR", "BUTTE", "CALAVERAS",
+                "COLUSA", "CONTRA COSTA", "DEL NORTE", "EL DORADO",
+                "FRESNO", "GLENN", "HUMBOLDT", "IMPERIAL", "INYO",
+                "KERN", "KINGS", "LAKE", "LASSEN", "LOS ANGELES",
+                "MADERA", "MARIN", "MARIPOSA", "MENDOCINO", "MERCED",
+                "MODOC", "MONO", "MONTEREY", "NAPA", "NEVADA", "ORANGE",
+                "PLACER", "PLUMAS", "RIVERSIDE", "SARCRAMENTO", "SAN BENITO",
+                "SAN BERNARDINO", "SAN DIEGO", "SAN FRANCISCO", "SAN JOAQUIN",
+                "SAN LUIS OBISPO", "SAN MATEO", "SANTA BARBARA", "SANTA CLARA",
+                "SANTA CRUZ", "SHASTA", "SIERRA", "SISKIYOU", "SOLANO", "SONOMA",
+                "STANISLAUS", "SUTTER", "TEHAMA", "TRINITY", "TULARE",
+                "TUOLUMNE", "VENTURA", "YOLO", "YUBA"]
+df_raw.res_county.replace('BERKELEY','ALAMEDA',inplace= True)
+df_raw.res_county.replace('LONG BEACH','LOS ANGELES',inplace= True)
+df_raw.res_county.replace('PASADENA','LOS ANGELES',inplace= True)
+df_raw =  df_raw[df_raw["res_county"].isin(ca_counties)] 
 df_raw['time'] =pd.to_datetime(df_raw['cdc_case_earliest_dt'],format= '%Y-%m-%d')
 df_raw.fillna('Unknown',inplace=True)
 df_raw["age_raceethnicity_combined"] = df_raw["race_ethnicity_combined"] + df_raw["age_group"]
-
+print('data cleaned')
 
 
 
@@ -112,7 +128,7 @@ df_add = add_feature(df_add,'vaccine_time_county_imputed.csv',['res_county','cdc
 df_add['total_partially_vaccinated'].fillna(0, inplace=True)
 df_add['cumulative_fully_vaccinated'].fillna(0, inplace=True)
 df_add.fillna('Unknown',inplace=True)
-
+print('feature added')
 
 one_hot_list = ['race_ethnicity_combined','res_county','sex','age_group','age_raceethnicity_combined','geographic_region',
                 'tier','death_yn','hosp_yn','icu_yn','hc_work_yn',
@@ -130,3 +146,4 @@ df_add = add_count_symptoms(df_add,symptom_list)
 df_add.to_csv(r'./CA_cleaned.csv',index = False)
 df_encoded = pd.concat([onehot_encode(df_add[one_hot_list]),to_month_encode(df_add[time_list]),df_add[numerical_list]],axis = 1)
 df_encoded.to_csv(r'./CA_encoded.csv',index = False)
+print('finish encoding')
