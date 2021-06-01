@@ -79,10 +79,10 @@ def find_tier(tier_df,county,time):
             return str(county_history[start])
     return 'Unknown'
  
-def add_count_symptoms(df,symptom_list):
-    df['num_of_symptoms'] = pd.Series([0 for x in range(len(df.index))])
+def add_count_symptoms(df,symptom_list,key):
+    df['num_of_'+key] = pd.Series([0 for x in range(len(df.index))])
     for symptom in symptom_list:
-        df['num_of_symptoms'] += (df[symptom]=='Yes').astype(int) 
+        df['num_of_'+key] += (df[symptom]=='Yes').astype(int) 
     return df
 
         
@@ -131,18 +131,23 @@ df_add.fillna('Unknown',inplace=True)
 print('feature added')
 
 one_hot_list = ['race_ethnicity_combined','res_county','sex','age_group','age_raceethnicity_combined','geographic_region',
-                'tier','death_yn','hosp_yn','icu_yn','hc_work_yn',
+                'tier','death_yn','hosp_yn','icu_yn','hc_work_yn','pna_yn', 'abxchest_yn',
+       'acuterespdistress_yn', 'mechvent_yn',
                 'fever_yn','sfever_yn','chills_yn','myalgia_yn','runnose_yn','sthroat_yn','cough_yn','sob_yn',
                 'nauseavomit_yn','headache_yn','abdom_yn','diarrhea_yn','medcond_yn']
 time_list = 'cdc_case_earliest_dt'
-numerical_list = ['num_of_symptoms','estimated household income', 'senior population rate',
+numerical_list = ['num_of_symptoms','num_of_severe_symptoms','estimated household income', 'senior population rate',
        'teenager population rate', 'population', 'adult uninsured rate',
        'children uninsured rate','total_partially_vaccinated', 'cumulative_fully_vaccinated']
 symptom_list = ['fever_yn', 'sfever_yn',
        'chills_yn', 'myalgia_yn', 'runnose_yn', 'sthroat_yn', 'cough_yn',
        'sob_yn', 'nauseavomit_yn', 'headache_yn', 'abdom_yn', 'diarrhea_yn',
        'medcond_yn']
-df_add = add_count_symptoms(df_add,symptom_list)
+severe_symptom_list = ['pna_yn', 'abxchest_yn',
+       'acuterespdistress_yn', 'mechvent_yn']
+df_add = add_count_symptoms(df_add,symptom_list,'symptoms')
+df_add = add_count_symptoms(df_add,severe_symptom_list,'severe_symptoms')
+
 df_add.to_csv(r'./CA_cleaned.csv',index = False)
 df_encoded = pd.concat([onehot_encode(df_add[one_hot_list]),to_month_encode(df_add[time_list]),df_add[numerical_list]],axis = 1)
 df_encoded.to_csv(r'./CA_encoded.csv',index = False)
