@@ -5,7 +5,6 @@ from sklearn.svm import SVC
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import f1_score
-from sklearn.neural_network import MLPClassifier
 from sklearn.datasets import make_classification
 from sklearn import model_selection, linear_model
 from sklearn.model_selection import train_test_split
@@ -93,8 +92,8 @@ def init_bias(arr):
        
 
 def main():
-        data_file_path = '../data/CA_encoded.csv'
-        X,y = readDat(data_file_path,300000)
+        data_file_path = 'data/CA_encoded.csv'
+        X,y = readDat(data_file_path,500000)
         input_dim = X.shape[1]
         X_train,X_test,y_train,y_test=model_selection.train_test_split(X,y,test_size=0.2,random_state=1)
         #scaler = StandardScaler()
@@ -106,7 +105,7 @@ def main():
      
     
         boosted_ann = AdaC2.AdaBoost()
-        history = boosted_ann.fit(X_train.to_numpy(), y_train.to_numpy(),100,5,{True:0.5,False:0.49})
+        history = boosted_ann.fit(X_train.to_numpy(), y_train.to_numpy(),100,5,{True:0.5,False:0.485})
         y_pred = boosted_ann.predict(X_test.to_numpy())
         
         print(f1_score(y_test.to_numpy(),y_pred))
