@@ -105,6 +105,7 @@ def main():
      
     
         boosted_ann = AdaC2.AdaBoost(1,3)
+
         history = boosted_ann.fit(X_train.to_numpy(), y_train.to_numpy(),100,5,{True:0.5,False:0.485})
         y_pred = boosted_ann.predict(X_test.to_numpy())
         
