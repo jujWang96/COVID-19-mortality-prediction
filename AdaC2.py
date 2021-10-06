@@ -4,12 +4,15 @@ import pandas as pd
 class AdaBoost:
     """ AdaBoost enemble classifier from scratch """
 
-    def __init__(self):
+    def __init__(self,learning_rate = 0.1,max_depth=5):
         self.stumps = None
         self.stump_weights = None
         self.errors = None
         self.sample_weights = None
         self.classlabel = {1:None,-1:None}
+        self.lr = learning_rate
+        self.md = max_depth
+        
     def _check_X_y(self, X, y):
         """ Validate assumptions about format of input data, convert minor class to 1"""
         assert len(set(y)) == 2, 'Response variable must only have two classes'
@@ -45,7 +48,7 @@ class AdaBoost:
         for t in range(iters):
             # fit  weak learner
             curr_sample_weights = self.sample_weights[t]
-            stump = DecisionTreeClassifier(max_depth=max_depth,random_state=t)#, max_leaf_nodes=2)
+            stump = DecisionTreeClassifier(max_depth=self.md,random_state=t)
             stump = stump.fit(X, y, sample_weight=curr_sample_weights)
 
             # calculate error and stump weight from weak learner prediction
@@ -55,7 +58,7 @@ class AdaBoost:
             err = curr_sample_weights[(stump_pred != y)].sum()
 
             #stump_weight =  np.log((1 + acc_w- err_w) / (1-acc_w+err_w)) / 2
-            stump_weight = np.log(acc_w/err_w)/2
+            stump_weight =self.lr* np.log(acc_w/err_w)/2
             # update sample weights
             new_sample_weights = (
                 self.sample_cost*curr_sample_weights * np.exp(-stump_weight * y * stump_pred)
