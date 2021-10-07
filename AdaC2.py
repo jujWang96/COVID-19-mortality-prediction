@@ -2,7 +2,7 @@ from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 import pandas as pd
 class AdaBoost:
-    """ AdaBoost enemble classifier from scratch """
+    """ AdaC2 enemble classifier """
 
     def __init__(self,learning_rate = 0.1,max_depth=5):
         self.stumps = None
