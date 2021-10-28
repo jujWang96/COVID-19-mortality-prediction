@@ -72,42 +72,22 @@ def main():
         X,y = readDat(data_file_path)
         input_size = X.shape[0]
         test_prop = 0.15
-        valid_prop = 0.15
 
         #X_train,X_test,y_train,y_test=model_selection.train_test_split(X,y,test_size=0.2,random_state=1)
-        X_train, X_val,X_test = X.iloc[:round(input_size*(1-test_prop-valid_prop)),:],\
-                          X.iloc[round(input_size*(1-test_prop-valid_prop))+1:round(input_size*(1-test_prop)),:],\
-                          X.iloc[(round(input_size*(1-test_prop))+1):,:]
+        X_test = X.iloc[(round(input_size*(1-test_prop))+1):,:]
                           
-        y_train,y_val,y_test = y.iloc[:round(input_size*(1-test_prop-valid_prop))],\
-                         y.iloc[round(input_size*(1-test_prop-valid_prop))+1:round(input_size*(1-test_prop))],\
-                         y.iloc[round(input_size*(1-test_prop))+1:,]
+        y_test = y.iloc[round(input_size*(1-test_prop))+1:,] 
+        fw =0.484
+        file_to_read = open("adac2_fw"+str(fw)+".pickle", "rb")
+        selected_clf = pickle.load(file_to_read)
+        print('loaded')
+        file_to_read.close()
+        print('trainning')
+        y_predtest= selected_clf.predict(X_test.to_numpy())
 
-        #select weight through validation 
-        false_weights =np.arange(0.48,0.5,0.002)
-        hm_metric = {}
-        for fw in false_weights:
-                boosted_ann = AdaC2.AdaBoost(1,3)
-                history = boosted_ann.fit(X_train.to_numpy(), y_train.to_numpy(),100,{True:0.5,False:fw})
-                file_to_store = open("adac2_fw"+str(fw)+".pickle", "wb")
-                pickle.dump(boosted_ann, file_to_store)
-                file_to_store.close()
-                y_predval= boosted_ann.predict(X_val.to_numpy())
-                #print(f1_score(y_val.to_numpy(),y_predval))
-                #cm = confusion_matrix(y_val,y_predval)
-                try:
-                        hm_metric[fw] = (accuracy_score(y_val.to_numpy(),y_predval),recall_score(y_val.to_numpy(),y_predval))
-                except:
-                        print(' no true nor predicted samples')
-
-        print(hm_metric)
-        #run the algorithm with selected weight on test dataset
-        #selected_clf = hm_clf[0.484]
-        #y_predtest= selected_clf.predict(X_test.to_numpy())
-
-        #print('metric of prediction on the last {} percentage data is accuracy: {}, recall: {}'.format(test_prop*100,\
-                                                                                                       #accuracy_score(y_test.to_numpy(),y_predtest),\
-                                                                                                       #recall_score(y_test.to_numpy(),y_predtest)) )              
+        print('metric of prediction on the last {} percentage data is accuracy: {}, recall: {}'.format(test_prop*100,\
+                                                                                                       accuracy_score(y_test.to_numpy(),y_predtest),\
+                                                                                                       recall_score(y_test.to_numpy(),y_predtest)) )              
                         
 
        
